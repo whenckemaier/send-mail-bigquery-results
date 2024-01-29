@@ -4,6 +4,6 @@ gcloud functions deploy sre-global-send-mail-daily-usage-apis_temp \
     --region us-east1 \
     --trigger-http \
     --allow-unauthenticated \
-    --entry-point main 
-    --memory 128mb 
+    --entry-point main \
+    --memory 128mb \
     --timeout 60s
